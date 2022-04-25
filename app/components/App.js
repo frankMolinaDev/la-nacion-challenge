@@ -1,5 +1,12 @@
-import './App.css'; 
+import './App.css';
+import Layout from './Layout';
 
 export default function App() {
-    return <div className='title'>La Nacion Challengawss</div>
+    return (
+        <main>
+            <Layout>
+                <div>Layout</div>
+            </Layout>
+        </main>
+    )
 }
