@@ -1,5 +1,5 @@
 
-function Tag(props) {
+const Tag = (props) => {
     const { data } = props;
     const { text, slug } = data;
     return (
@@ -11,4 +11,4 @@ function Tag(props) {
     )
 }
 
-export default Tag
+export default Tag;
