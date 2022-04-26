@@ -10,3 +10,9 @@ export function sortByText(arr) {
         return 0;
     })
 }
+
+export function parseDate(date) {
+    var options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const parsedDate = new Date(date).toLocaleDateString("es-ES", options)
+    return parsedDate;
+}
