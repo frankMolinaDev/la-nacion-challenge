@@ -1,4 +1,9 @@
-import {render} from 'react-dom';
+import * as ReactDOMClient from 'react-dom/client';
+
 import App from './components/App';
 
-render(<App />, document.getElementById('root'));
+const container = document.getElementById('root');
+
+const root = ReactDOMClient.hydrateRoot(container, <App tab="home" />);
+
+root.render(<App />);
