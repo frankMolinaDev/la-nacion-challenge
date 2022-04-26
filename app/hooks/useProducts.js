@@ -5,7 +5,6 @@ function useProducts() {
     const [productsList, setProductsList] = useState([]);
     const [filteredProductsList, setFilteredProductsList] = useState([]);
 
-
     useEffect(() => {
         const getData = async () => {
             let products = await getProducts();

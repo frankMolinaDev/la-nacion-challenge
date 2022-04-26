@@ -7,11 +7,16 @@
 
 @media (min-width: 760px) {
     .product-card-wrapper {
-        max-width: 20em;
+        width: 49%;
     }
-
     .product-card-wrapper img {
-        height: 230px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 980px) {
+    .product-card-wrapper {
+        width: 20em
     }
 }
 
