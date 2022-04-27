@@ -1,0 +1,11 @@
+.h-banner-section {
+    background-color: #ccc;
+    height: 170px;
+}
+
+.h-banner-content-wrapper {
+    max-width: 1043px;
+    margin: auto;
+    background-color: #a0dbe9;
+    height: 100%;
+}

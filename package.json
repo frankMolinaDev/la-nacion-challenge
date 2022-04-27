@@ -8,7 +8,7 @@
     "build:client": "webpack --config ./webpack.config.js/ --watch",
     "build:server": "babel ./app/server -d build/server --watch",
     "babel-node": "babel-node",
-    "dev": "nodemon --exec npm run babel-node --  --watch build/server/index.js "
+    "dev": "nodemon --watch build --exec npm run babel-node -- build/server/index.js "
   },
   "repository": {
     "type": "git",

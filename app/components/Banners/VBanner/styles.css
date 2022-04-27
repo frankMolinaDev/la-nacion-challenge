@@ -1,0 +1,11 @@
+.v-banner-section {
+    background-color: #ccc;
+    height: 170px;
+}
+
+.v-banner-content-wrapper {
+    width: 300px;
+    margin: auto;
+    background-color: #a0dbe9;
+    height: 100%;
+}
