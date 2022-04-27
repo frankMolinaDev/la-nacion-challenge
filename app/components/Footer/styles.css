@@ -1,0 +1,32 @@
+.footer-section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--primary-bg-color);
+}
+
+.header-logo img {
+    width: 200px;
+}
+
+.copyright-wrapper {
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+}
+
+.copyright-wrapper p:first-child {
+    flex: 1;
+}
+
+.footer-links-list-ul {
+    list-style: none;
+}
+
+.footer-links-list-ul li {
+    display: inline;
+    padding-right: .5em;
+}

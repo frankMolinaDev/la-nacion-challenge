@@ -1,6 +1,7 @@
 import { AppProvider } from '../context/appContext';
 import './App.css';
 import VBanner from './Banners/VBanner';
+import Footer from './Footer';
 import Layout from './Layout';
 import ProductsList from './ProductsList';
 import TagsList from './TagsList';
@@ -18,6 +19,7 @@ export default function App() {
                         </div>
                         <VBanner />
                     </div>
+                    <Footer />
                 </Layout>
             </main>
         </AppProvider>

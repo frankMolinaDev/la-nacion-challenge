@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-@media (min-width: 968px) {
+@media (min-width: 1280px) {
     .products-container div:nth-child(3n + 2) {
         margin: 0 1em 1em 1em;
     }
