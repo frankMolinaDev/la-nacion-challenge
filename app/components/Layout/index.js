@@ -10,7 +10,6 @@ const Layout = ({ children }) => {
             <div className='main-wrapper'>
                 {children}
             </div>
-
         </>
     )
 }

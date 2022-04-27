@@ -6,7 +6,7 @@ function ProductCard(props) {
     const { data } = props;
     const { display_date, headlines, promo_items, taxonomy, website_url, _id } = data;
     const { basic } = headlines;
-    const { tags = [] } = taxonomy;
+    // const { tags = [] } = taxonomy;
 
     const parsedDisplayDate = parseDate(display_date);
     const { basic: basicImageOptions } = promo_items;
@@ -18,9 +18,9 @@ function ProductCard(props) {
                 <img src={url} alt={''} />
                 <div className='product-card-content-wrapper'>
                     <h3>{basic}</h3>
-                    {tags.map((tag, index) => {
+                    {/* {tags.map((tag, index) => {
                         return <Tag key={`${index}`} data={tag} />
-                    })}
+                    })} */}
                     <p><strong>{parsedDisplayDate}</strong></p>
                 </div>
             </div>

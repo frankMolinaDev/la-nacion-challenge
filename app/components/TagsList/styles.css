@@ -12,7 +12,7 @@
     margin-bottom: 10px;}
 
 .tags-list-item {
-    padding: 8px;
+    padding: 8px 8px 8px 0;
     text-decoration: none;
     color: #0074c4;
 }

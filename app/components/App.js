@@ -11,7 +11,8 @@ export default function App() {
             <main>
                 <Layout>
                     <div className='product-list-divider'>
-                        <div>
+                        <div className='product-list-content-wrapper'>
+                            <h1 className='title'>La Nación Challenge  - Francisco Molina</h1>
                             <TagsList />
                             <ProductsList />
                         </div>

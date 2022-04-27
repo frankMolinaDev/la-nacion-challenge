@@ -35,8 +35,8 @@
     }
 
     .header-content-wrapper {
-        justify-content: space-evenly;
-        max-width: 1340px;
+        justify-content: space-between;
+        max-width: var(--app-max-width);
         margin: auto;
     }
 

@@ -1,5 +1,7 @@
 :root {
-    --custom-color: #f0f0f0;
+    --primary-color: #f0f0f0;
+    --primary-bg-color: #ccc;
+    --app-max-width: 1280px;
 }
 
 * {
@@ -7,7 +9,10 @@
     margin: 0;
 }
 
-.main-wrapper {
-    max-width: 1043px;
-    margin: auto;
+.title {
+    text-decoration: underline;
+}
+
+.product-list-content-wrapper {
+    margin-right: 5em;
 }
