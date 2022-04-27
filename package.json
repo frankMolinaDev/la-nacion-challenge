@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:client": "webpack --config ./webpack.config.js/ --watch",
-    "build:server": "babel ./app/server -d build/server --watch",
+    "build:client": "webpack --config ./webpack.config.js/",
+    "build:server": "babel ./app/server -d build/server",
+    "build:client:watch": "webpack --config ./webpack.config.js/ --watch",
+    "build:server:watch": "babel ./app/server -d build/server --watch",
     "babel-node": "babel-node",
     "dev": "nodemon --watch build --exec npm run babel-node -- build/server/index.js "
   },
