@@ -3,6 +3,8 @@
     flex-wrap: wrap;
 }
 
-.products-container div:nth-child(3n + 2) {
-    margin: 0 1em 1em 1em;
+@media (min-width: 968px) {
+    .products-container div:nth-child(3n + 2) {
+        margin: 0 1em 1em 1em;
+    }
 }

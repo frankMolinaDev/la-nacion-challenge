@@ -1,5 +1,5 @@
 .v-banner-section {
-    background-color: #ccc;
+   display: none;
 }
 
 .v-banner-content-wrapper {
@@ -9,4 +9,10 @@
     height: 600px;
     position: sticky;
     top: 20%;
+}
+@media (min-width: 968px) {
+    .v-banner-section {
+        background-color: #ccc;
+        display: inline;
+    }
 }

@@ -13,6 +13,8 @@
     text-decoration: underline;
 }
 
-.product-list-content-wrapper {
-    margin-right: 5em;
+@media (min-width: 968px) {
+    .product-list-content-wrapper {
+        margin-right: 5em;
+    }
 }
